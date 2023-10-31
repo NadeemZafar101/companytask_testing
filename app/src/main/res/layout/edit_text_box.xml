@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_margin="@dimen/_15sdp"
+    android:elevation="@dimen/_10sdp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        >
+        <EditText
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:hint="Note title"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_10sdp"
+             android:paddingHorizontal="@dimen/_5sdp"
+            android:background="@drawable/bg_shape"
+            />
+        <EditText
+            android:id="@+id/noteDec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:hint="Note dec"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:paddingVertical="@dimen/_10sdp"
+            android:background="@drawable/bg_shape"
+            />
+
+        <TextView
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Add data"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:paddingVertical="@dimen/_5sdp"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

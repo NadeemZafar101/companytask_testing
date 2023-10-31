@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_10sdp"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/blackColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FF000000"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/whiteColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FFFFFFFF"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/redColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FFFF0000"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/greenColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FF00FF00"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/yellowColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FFFFFF00"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/blueColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FF0000FF"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cyanColor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            app:cardCornerRadius="@dimen/_30sdp"
+            app:cardBackgroundColor="#FF00FFFF"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
